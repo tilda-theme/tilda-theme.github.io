@@ -1,0 +1,3 @@
+﻿User-agent: *
+Sitemap: http://tilda-theme.github.io/https://tilda-theme.github.io/sitemap.xml
+Host: tilda-theme.github.io
