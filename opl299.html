@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<title>Оплата</title>
+	<meta name="description" content="">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+</head>
+<body class="oplata500-1 dn_500-1" style="color: #fff; opacity: .1;height: 100vh;width: auto;">
+	<div class="wr_opl_form"><a class="a_btn a_btn_500" href="../index.html"></a></div>
+<form class="ya-pop" method="POST" action="https://money.yandex.ru/quickpay/confirm.xml">
+		    <input name="receiver" value="4100115222694796" type="hidden">
+		    <input name="formcomment" value="Оплата 299 рублей" type="hidden">
+		    <input name="short-dest" value="Оплата 299 рублей" type="hidden">
+		    <input name="label" value="1547956" type="hidden">
+		    <input name="quickpay-form" value="donate" type="hidden">
+		    <input name="targets" value="Оплата 299 рублей" type="hidden">
+		    <input name="sum" value="299.00" data-type="number" type="hidden">
+		    <label class="op01"><input name="paymentType" value="PC" type="radio">Яндекс.Деньгами</label>
+		    <label class="op02"><input checked="checked" class="link-order2" name="paymentType" value="AC" type="radio">Банковской картой</label>
+		    <input class="link-order1 skidka11 oplata500" value="Оплатить" type="submit">
+			</form>
+<script src="../main.js"></script>
+<!-- <script src="common.js"></script> -->
+<script>
+$(function() {
+	setTimeout(function() {$('.oplata500').trigger('click')}, 10);
+});
+</script>
+</body>
+</html>
