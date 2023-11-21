@@ -148,6 +148,7 @@ if(_hash12!=''){
 
 
 $('.smm-fixed__toggle').attr('href','https://wa.me/79603570433?text=https://tilda-theme.github.io/templates/template_'+_hash12+'.html Добрый_день_хочу_сделать_заказ!');
+$('.catalog-title-wrap .product-card__add-basket').attr('href','https://wa.me/79603570433?text=https://tilda-theme.github.io/templates/template_'+_hash12+'.html Добрый_день_хочу_сделать_заказ!');
 
 
 }
