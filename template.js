@@ -141,14 +141,9 @@ $(function(){
 });
 
 
-var _hash12=window.location.hash.slice(1);
-console.log("_hash12=="+_hash12);
 
-if(_hash12!=''){
+var product323=$('.mp-catalog-menu__wrapp .product-card__add-basket').attr('href');
+console.log("product323=="+product323);
+$('.smm-fixed__toggle').attr('href',product323);
+$('.catalog-title-wrap .product-card__add-basket').attr('href',product323);
 
-
-$('.smm-fixed__toggle').attr('href','https://wa.me/79603570433?text=https://tilda-theme.github.io/templates/template_'+_hash12+'.html Добрый_день_хочу_сделать_заказ!');
-$('.catalog-title-wrap a').attr('href','https://wa.me/79603570433?text=https://tilda-theme.github.io/templates/template_'+_hash12+'.html Добрый_день_хочу_сделать_заказ!');
-
-
-}
