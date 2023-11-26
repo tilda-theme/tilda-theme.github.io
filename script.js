@@ -18,7 +18,7 @@ console.log("key.length --- "+Object.keys(table).length);for(var key in table){v
 
 <div itemscope itemtype="http://schema.org/Product">
 <link itemprop="url" href="https://tilda-theme.github.io/templates/template_`+id+`.html">
-<div itemprop="name"><h1>Сайт / `+name+` / № `+id+` </h1></div>
+<div itemprop="name">Сайт / `+name+` / № `+id+` </div>
 <a itemprop="image" href="https://envatomarket.ru/baza-img-small/`+id+`.webp"><img src="https://envatomarket.ru/baza-img-small/`+id+`.webp" title="Сайт / `+name+` / № `+id+` "></a>
 <div itemprop="aggregateRating" itemscope="" itemtype="http://schema.org/AggregateRating">
    <span itemprop="ratingValue">4.`+rndInt+`</span>
